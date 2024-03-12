@@ -1,0 +1,12 @@
+git config --global (Serve para configurações de usuário)
+git config --system (Serve para configurar o sistema que agrupa todos os usuários)
+git config --local (Serve para configurações do repositório atual)
+git config --global user.name "thalissongoncalve"   -    Serve para alterar o usuário do git atual conforme nome no github
+git config --global user.email thalissongsilva70@gmail.com   -   Serve para altear o email do git atual conforma no github
+git config user.name (Retorna o usuário atual)
+git config user.email (Retorna o e-mail atual)
+git config init.defaultBranch (Retorna a branch padrão configurada)
+git config --global init.defaultBranch main (Altera a branch padrão configurada para "main")
+git config --global --list (Retorna todas as configurações globais)
+
+CTRL + L (Limpa o terminal)
