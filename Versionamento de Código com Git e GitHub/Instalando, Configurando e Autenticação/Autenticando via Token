@@ -1,0 +1,24 @@
+- Cria um novo repositório no GitHub
+- Vai no perfil > settings
+- Vai em developer settings
+- Vai em personal access tokens > Tokens (classic)
+- Clica em generate new token > generate new token (classic)
+- Configure as permissões que você quer que o token tenha
+- Copie o token
+- use o git clone com o código HTTPS do repositório no terminal
+- Coloque o nome de usuário do github e na senha coloque o token copiado
+- o comando git config --global credential.helper store, salva o usuário e o token e não pede mais quando for tentar clonar futuramente
+
+Pra visualizar todos os tokens criados:
+- clica na foto do perfil github, settings
+- Developer settings
+- Personal access tokens > tokens(classic) 
+
+Para visualizar onde foi configurado as credenciais automáticas:
+- git config --global --show-origin credential.helper
+
+Para visualizar os dados configurados no arquivo gitconfig:
+- cat .gitconfig
+
+Para visualizar o token configurado:
+- cat .git-credentials
