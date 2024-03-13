@@ -1,0 +1,26 @@
+Para ver se existem chaves SSH no computador vai pelo terminal no diretório HOME:
+- digite ls -a ~/.ssh
+
+Para gerar uma nova chave SSH:
+- no terminal digite ssh-keygen -t ed25519 -C "your-email@example.com" (Use seu email do github)
+- Ele vai perguntar aonde quer salvar essa chave, deixe o padrão apertando enter
+- Ele vai pedir um cadastro de senha também, deixe vazio e aperte enter
+
+Para adicionar a chave SSH ao ssh-agent:
+- no terminal digite eval "$(ssh-agent -s)"
+- no terminal digite ssh-add ~/.ssh/id_ed25519
+
+Adicionando a chave SSH ao github:
+- Vai no perfil Github
+- Settings
+- SSH and GPG keys
+- New SSH Key
+- Título coloque um que descreva a máquina que gerou a chave
+- Key type deixa Authentication mesmo
+- Vai na página home do pc pelo terminal
+- digite cd ~/.ssh
+- digite ls
+- arquivos .pub é chave pública e sem .pub é privada
+- digite cat nome_do_arquivo.pub
+- Copia a chave e cola la na configuração de chave SSH no github
+- Adicione a chave
