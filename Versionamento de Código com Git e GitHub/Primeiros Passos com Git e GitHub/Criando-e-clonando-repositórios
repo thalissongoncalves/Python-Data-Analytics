@@ -1,0 +1,21 @@
+2 formas de obter um repositório Git:
+- Transformando um diretório local que não está sob controle de versão, num repositório Git;
+- Clonando um repositório Git existente.
+
+Para clonar um repositório Git:
+- Vá no repositório no github, clica em code e copie o link HTTPS ou SSH
+- vá na pasta onde você quer colar o repositório do github
+- digite git clone _url_
+- Se quiser clonar um repositório com nome personalizado digite git clone _url_ _nomeDaPasta_
+
+Para criar um repositório Git:
+- Escolha um diretório e navegue até ele no terminal para transformar um repositório git ou crie usando mkdir name_repository
+- Entre na pasta pelo terminal
+- digite git init
+
+Para verificar qual repositório git a pasta está vinculada ou conectar uma pasta a um repositório do github:
+- Digite git remote -v
+- Para conectar digite git remote add origin _url_
+
+Para fazer um clone somente de uma branch:
+- git clone URL --branch _branch_name --single-branch
