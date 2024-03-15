@@ -1,0 +1,8 @@
+- cmd: rm -rf .git (serve para remover o git de uma pasta local)
+- cmd: git restore _nomeArquivo_ (serve para descartar uma alteração e restaurar a versão anterior do arquivo)
+- cmd: git commit --amend -m "_message_" (serve para alterar a mensagem do último commit)
+- pegue o código hash no git log e use o cmd: git reset --soft _hashCode_ (serve para alterar o commit para o que foi copiado o código hash)
+- cmd: git reset --mixed _hashCode_ (serve para desafazer commits posteriores ao que for passado o hashCode)
+- cmd: git reset --hard _hashCode_ (serve para desfazer todos os commits menos o sinalizado por hashCode)
+- cmd: git reflog (mostra o histórico de alterações gits)
+- cmd: git reset _nomeArquivo_ (Remove o commit referente as alterações de determinado arquivo)
