@@ -1,3 +1,6 @@
 - cmd: git checkout -b _branchName_ (Serve para mudar de branch)
 - cmd: git branch (Serve para ver as branchs existentes)
 - cmd: git merge _branchName_ (Serve para mergear alguma branch com a main)
+- cmd: git branch -d _branchName_ (Serve para deletar uma branch específica)
+- cmd: git pull (Serve para puxar todos os arquivos do repositório remoto para o local)
+- cmd: git push origin main (Serve para subir todos os arquivos do repositório local para a main)
