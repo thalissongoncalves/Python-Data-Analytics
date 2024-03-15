@@ -1,0 +1,3 @@
+- cmd: git checkout -b _branchName_ (Serve para mudar de branch)
+- cmd: git branch (Serve para ver as branchs existentes)
+- cmd: git merge _branchName_ (Serve para mergear alguma branch com a main)
