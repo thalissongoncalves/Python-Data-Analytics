@@ -1,0 +1,2 @@
+- cmd: git fetch origin main (Serve para puxar uma branch do repositório remoto sem substituir a do repositório local)
+- cmd: git clone _url_ --branch _nameBranch_ (Serve para clonar somente 1 branch específica)
