@@ -1,2 +1,4 @@
 - cmd: git fetch origin main (Serve para puxar uma branch do repositório remoto sem substituir a do repositório local)
-- cmd: git clone _url_ --branch _nameBranch_ (Serve para clonar somente 1 branch específica)
+- cmd: git clone _url_ --branch _nameBranch_ --single-branch (Serve para clonar somente 1 branch específica)
+- cmd: git stash (Serve para criar uma nova branch sem as alterações atuais feitas, por exemplo, excluí um arquivo na branch teste01 e quero criar a branch teste02 sem levar essas alterações)
+- cmd: git stash list (Serve para mostrar a lista de alterações arquivadas)
